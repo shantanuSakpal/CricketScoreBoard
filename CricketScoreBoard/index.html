@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="HTML5_badge.png">
+    <title>Cricket Score Counter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>INDIA</h3>
+            <pre id="leading1" class="leading"> </pre>
+            <div class="score" id="indscore">0</div>
+            <button id="one" onclick="ind1()">+1</button>
+            <button id="two" onclick="ind2()">+2</button>
+            <br>
+            <button id="three" onclick="ind3()">+4</button>
+            <button id="six" onclick="ind4()">+6</button>
+        </div>
+        <div  class="tie"><pre id="tie" class="leading"> </pre></div>
+        <div>
+            <h3>PAKISTAN</h3>
+            <pre id="leading2" class="leading"> </pre>
+            <div class="score" id="pakscore">0</div>
+            <button id="one" onclick="pak1()">+1</button>
+            <button id="two" onclick="pak2()">+2</button>
+            <br>
+            <button id="three" onclick="pak3()">+4</button>
+            <button id="six" onclick="pak4()">+6</button>
+        </div>
+        <br>
+    </div>
+    <div style="text-align: center;">
+        <button id="new" class="newGame-btn" onclick="eraseScore()">New Game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+<script src="script.js"></script>
+
+</html>

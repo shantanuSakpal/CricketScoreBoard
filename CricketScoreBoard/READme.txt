@@ -1,0 +1,1 @@
+Cricket score board which keeps a track of the teams score.
